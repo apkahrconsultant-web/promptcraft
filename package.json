@@ -1,11 +1,16 @@
 {
   "name": "promptcraft-ai",
+<<<<<<< HEAD
   "version": "1.0.0",
+=======
+  "version": "0.1.0",
+>>>>>>> 00e2b0d3c6dcf90fbdca3cc9e42e83e02787ea7d
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,5 +24,23 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5"
+=======
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+>>>>>>> 00e2b0d3c6dcf90fbdca3cc9e42e83e02787ea7d
   }
 }
